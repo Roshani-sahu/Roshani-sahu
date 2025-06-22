@@ -15,7 +15,7 @@ Passionate about clean UI, responsive design, and building meaningful user exper
 
 ## 📈 GitHub Stats
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Roshani-sahu&layout=compact&theme=radical)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Roshani-sahu&layout=compact&theme=radical&langs_count=5&exclude_repo=blog-app,expense-tracker)
 
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Roshani-sahu&layout=compact&theme=radical)
 
