@@ -2,7 +2,6 @@
 
 💻 Aspiring Frontend Developer | Passionate about clean UI, responsive design, and building meaningful user experiences.  
 🌱 Currently learning React, Tailwind CSS, and JavaScript frameworks.  
-📍 Based in India
 
 ---
 
