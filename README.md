@@ -1,6 +1,7 @@
 # 👋 Hi, I'm Roshani Sahu!
 
-💻 Aspiring Frontend Developer | Passionate about clean UI, responsive design, and building meaningful user experiences.  
+💻 Aspiring Frontend Developer
+Passionate about clean UI, responsive design, and building meaningful user experiences.  
 🌱 Currently learning React, Tailwind CSS, and JavaScript frameworks.  
 
 ---
