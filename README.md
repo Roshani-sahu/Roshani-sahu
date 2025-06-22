@@ -30,7 +30,3 @@ Passionate about clean UI, responsive design, and building meaningful user exper
 ## ✨ Quote I Believe In
 
 > “Code is not just a tool; it's the paintbrush for tomorrow's digital canvas.” 
-
----
-
-Thanks for visiting my GitHub profile! Feel free to connect or collaborate.
