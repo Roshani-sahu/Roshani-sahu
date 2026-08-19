@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- ================================================================= -->
-<!-- 01 — HERO HEADER: ROSHANI SAHU                                    -->
+<!-- 01 — CINEMATIC HERO: ROSHANI SAHU                                 -->
 <!-- ================================================================= -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/hero/hero-dark.svg">
@@ -12,52 +12,60 @@
 <br><br>
 
 <!-- ================================================================= -->
-<!-- 02 — ENGINEERING STACK & COMPONENT ARCHITECTURE                   -->
+<!-- 02 — ARCHITECTURE & ENGINEERING FLOW                             -->
 <!-- ================================================================= -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/stack/stack-flow-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/stack/stack-flow-light.svg">
-  <img src="./assets/stack/stack-flow-dark.svg" alt="Frontend Engine &amp; Full-Stack Component Pipeline" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/flow/flow-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/flow/flow-light.svg">
+  <img src="./assets/flow/flow-dark.svg" alt="Engineering Flow: Ideation to Production" width="100%">
 </picture>
 
 <br><br>
 
 <!-- ================================================================= -->
-<!-- 03 — FEATURED PROJECTS SHOWCASE                                   -->
+<!-- 03 — SELECTED BUILDS & PROJECT SHOWCASE                           -->
 <!-- ================================================================= -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/projects/showcase-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/projects/showcase-light.svg">
-  <img src="./assets/projects/showcase-dark.svg" alt="Featured Engineering Implementations" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/projects/builds-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/projects/builds-light.svg">
+  <img src="./assets/projects/builds-dark.svg" alt="Featured Engineering Builds — Magdha Studios, Get2Vacation CMS &amp; Portal" width="100%">
 </picture>
 
 <br><br>
 
 <!-- ================================================================= -->
-<!-- 04 — ENGINEERING FOCUS & CORE COMPETENCIES                        -->
+<!-- 04 — CAPABILITIES & CORE DOMAINS                                  -->
 <!-- ================================================================= -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/focus/focus-matrix-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/focus/focus-matrix-light.svg">
-  <img src="./assets/focus/focus-matrix-dark.svg" alt="Engineering Focus &amp; Competency Matrix" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/capabilities/capabilities-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/capabilities/capabilities-light.svg">
+  <img src="./assets/capabilities/capabilities-dark.svg" alt="Technology Spectrum &amp; Core Competencies" width="100%">
 </picture>
 
 <br><br>
 
 <!-- ================================================================= -->
-<!-- 05 — GITHUB TELEMETRY & ACTIVITY PULSE                            -->
+<!-- 05 — GITHUB ACTIVITY PULSE                                        -->
 <!-- ================================================================= -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity/telemetry-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/activity/telemetry-light.svg">
-  <img src="./assets/activity/telemetry-dark.svg" alt="Developer Activity &amp; Engineering Pulse" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity/activity-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/activity/activity-light.svg">
+  <img src="./assets/activity/activity-dark.svg" alt="Developer Activity &amp; Open Source Footprint" width="100%">
 </picture>
 
 <br><br>
 
 <!-- ================================================================= -->
-<!-- 06 — INTERACTIVE CONTACT & CONNECT HUB                            -->
+<!-- 06 — SIGNATURE & DIRECT CHANNELS                                  -->
 <!-- ================================================================= -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/footer/signature-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/footer/signature-light.svg">
+  <img src="./assets/footer/signature-dark.svg" alt="Let's build something meaningful." width="100%">
+</picture>
+
+<br>
+
 <p align="center">
   <a href="https://github.com/Roshani-sahu" target="_blank" rel="noopener noreferrer">
     <picture>

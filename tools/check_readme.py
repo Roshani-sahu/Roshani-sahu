@@ -8,7 +8,7 @@ readme = (ROOT / "README.md").read_text(encoding="utf-8")
 pattern = re.compile(r"\./assets/[\w./\-]+")
 refs = pattern.findall(readme)
 
-print("Auditing asset references in README.md:")
+print(f"Auditing asset references in {ROOT / 'README.md'}:")
 all_ok = True
 for r in refs:
     p = ROOT / r.lstrip("./")

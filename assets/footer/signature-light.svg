@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 220" width="100%" height="100%">
+  <defs>
+    <linearGradient id="sigGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00E5FF"/>
+      <stop offset="50%" stop-color="#8B5CF6"/>
+      <stop offset="100%" stop-color="#EC4899"/>
+    </linearGradient>
+    <style>
+      .mono-text { font-family: 'SF Mono', Monaco, 'Fira Code', 'Courier New', monospace; }
+      .sans-text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="220" fill="#F8FAFC" rx="20"/>
+
+  <g transform="translate(60, 50)">
+    <text x="0" y="20" class="mono-text" font-size="11" font-weight="700" fill="#00E5FF" letter-spacing="2">// 06 — CONNECT</text>
+    <text x="0" y="64" class="sans-text" font-size="32" font-weight="900" fill="#0F172A">Let's build something meaningful.</text>
+    <text x="0" y="98" class="sans-text" font-size="15" fill="#475569">
+      Always open to discussing frontend architecture, React development, and engineering opportunities.
+    </text>
+  </g>
+
+  <line x1="60" y1="185" x2="1140" y2="185" stroke="url(#sigGrad)" stroke-width="2" stroke-linecap="round"/>
+</svg>

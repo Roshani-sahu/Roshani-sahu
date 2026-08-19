@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" width="100%" height="100%">
+  <defs>
+    <pattern id="projGrid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M 48 0 L 0 0 0 48" fill="none" stroke="rgba(99, 102, 241, 0.05)" stroke-width="1"/>
+    </pattern>
+
+    <linearGradient id="heroCardGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00E5FF" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#8B5CF6" stop-opacity="0.05"/>
+    </linearGradient>
+
+    <style>
+      .mono-text { font-family: 'SF Mono', Monaco, 'Fira Code', 'Courier New', monospace; }
+      .sans-text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+    </style>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="1200" height="520" fill="#070A12" rx="20"/>
+  <rect width="1200" height="520" fill="url(#projGrid)" rx="20"/>
+
+  <!-- Section Header -->
+  <g transform="translate(60, 45)">
+    <text x="0" y="16" class="mono-text" font-size="11" font-weight="700" fill="#8B5CF6" letter-spacing="2">// 03 — SELECTED BUILDS</text>
+    <text x="0" y="46" class="sans-text" font-size="24" font-weight="800" fill="#F8FAFC">Featured Engineering Implementations</text>
+  </g>
+
+  <!-- Left: PREMIER FEATURED BUILD (Dominant Presence) -->
+  <g transform="translate(60, 105)">
+    <!-- Container Card -->
+    <rect width="560" height="375" rx="14" fill="#0E1526" stroke="#00E5FF" stroke-width="1.5"/>
+    <rect width="560" height="375" rx="14" fill="url(#heroCardGlow)"/>
+    
+    <!-- Top Badge -->
+    <g transform="translate(28, 28)">
+      <rect width="180" height="24" rx="12" fill="rgba(0, 229, 255, 0.15)" stroke="rgba(0, 229, 255, 0.4)" stroke-width="1"/>
+      <text x="90" y="16" text-anchor="middle" class="mono-text" font-size="10.5" font-weight="700" fill="#00E5FF">★ FEATURED PRODUCTION</text>
+    </g>
+
+    <!-- Project Title -->
+    <text x="28" y="92" class="sans-text" font-size="28" font-weight="900" fill="#F8FAFC">Magdha Studios</text>
+    <text x="28" y="116" class="sans-text" font-size="14" font-weight="600" fill="#8B5CF6">Interactive Game Promotion Platform</text>
+
+    <!-- Description -->
+    <text x="28" y="152" class="sans-text" font-size="14" fill="#94A3B8">
+      Engineered an interactive gaming showcase portal featuring modular
+    </text>
+    <text x="28" y="174" class="sans-text" font-size="14" fill="#94A3B8">
+      React components, fluid motion choreography, dynamic media sections,
+    </text>
+    <text x="28" y="196" class="sans-text" font-size="14" fill="#94A3B8">
+      and responsive layouts optimized for cross-device fidelity.
+    </text>
+
+    <!-- Engineering Highlight Box -->
+    <g transform="translate(28, 225)">
+      <rect width="504" height="65" rx="8" fill="rgba(255, 255, 255, 0.03)" stroke="rgba(0, 229, 255, 0.2)" stroke-width="1"/>
+      <text x="16" y="24" class="mono-text" font-size="11" font-weight="700" fill="#10B981">ARCHITECTURAL HIGHLIGHT</text>
+      <text x="16" y="46" class="sans-text" font-size="12.5" fill="#F8FAFC">Reusable Component Library &amp; Smooth Animation Choreography</text>
+    </g>
+
+    <!-- Tech Badges -->
+    <g transform="translate(28, 318)">
+      <rect x="0" y="0" width="84" height="26" rx="5" fill="rgba(0, 229, 255, 0.1)"/>
+      <text x="42" y="17" text-anchor="middle" class="mono-text" font-size="11" font-weight="600" fill="#00E5FF">React.js</text>
+
+      <rect x="94" y="0" width="105" height="26" rx="5" fill="rgba(139, 92, 246, 0.1)"/>
+      <text x="146" y="17" text-anchor="middle" class="mono-text" font-size="11" font-weight="600" fill="#8B5CF6">Tailwind CSS</text>
+
+      <rect x="209" y="0" width="95" height="26" rx="5" fill="rgba(236, 72, 153, 0.1)"/>
+      <text x="256" y="17" text-anchor="middle" class="mono-text" font-size="11" font-weight="600" fill="#EC4899">JavaScript</text>
+
+      <rect x="314" y="0" width="85" height="26" rx="5" fill="rgba(16, 185, 129, 0.1)"/>
+      <text x="356" y="17" text-anchor="middle" class="mono-text" font-size="11" font-weight="600" fill="#10B981">Motion FX</text>
+    </g>
+  </g>
+
+  <!-- Right: SECONDARY BUILDS COLUMN (2 Sleek Cards) -->
+  <g transform="translate(645, 105)">
+    <!-- Build 02: Get2Vacation CMS -->
+    <g transform="translate(0, 0)">
+      <rect width="495" height="178" rx="12" fill="#0E1526" stroke="rgba(0, 229, 255, 0.2)" stroke-width="1.2"/>
+      <rect width="4" height="178" rx="2" fill="#8B5CF6"/>
+      
+      <text x="24" y="32" class="mono-text" font-size="10.5" font-weight="700" fill="#8B5CF6" letter-spacing="1">PROJECT // 02</text>
+      <text x="24" y="60" class="sans-text" font-size="20" font-weight="800" fill="#F8FAFC">Get2Vacation CMS &amp; Admin Suite</text>
+      <text x="24" y="85" class="sans-text" font-size="13" fill="#94A3B8">
+        Full CRUD dashboard for managing destination catalogs, tour packages,
+      </text>
+      <text x="24" y="105" class="sans-text" font-size="13" fill="#94A3B8">
+        and marketing campaigns with dynamic REST API integration via Axios.
+      </text>
+      
+      <g transform="translate(24, 130)">
+        <text x="0" y="16" class="mono-text" font-size="11" fill="#64748B">React • Node.js • Express • REST APIs • Axios</text>
+      </g>
+    </g>
+
+    <!-- Build 03: Get2Vacations Portal & Royal IT -->
+    <g transform="translate(0, 197)">
+      <rect width="495" height="178" rx="12" fill="#0E1526" stroke="rgba(0, 229, 255, 0.2)" stroke-width="1.2"/>
+      <rect width="4" height="178" rx="2" fill="#10B981"/>
+      
+      <text x="24" y="32" class="mono-text" font-size="10.5" font-weight="700" fill="#10B981" letter-spacing="1">PROJECT // 03</text>
+      <text x="24" y="60" class="sans-text" font-size="20" font-weight="800" fill="#F8FAFC">Get2Vacations Travel Experience</text>
+      <text x="24" y="85" class="sans-text" font-size="13" fill="#94A3B8">
+        Modern travel portal with seamless client-side routing, query filters,
+      </text>
+      <text x="24" y="105" class="sans-text" font-size="13" fill="#94A3B8">
+        and scalable component architecture for rich travel itineraries.
+      </text>
+      
+      <g transform="translate(24, 130)">
+        <text x="0" y="16" class="mono-text" font-size="11" fill="#64748B">React • Tailwind CSS • React Router • REST Integration</text>
+      </g>
+    </g>
+  </g>
+</svg>

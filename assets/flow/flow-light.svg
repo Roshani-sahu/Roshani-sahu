@@ -1,0 +1,132 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="100%" height="100%">
+  <defs>
+    <pattern id="flowGrid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M 48 0 L 0 0 0 48" fill="none" stroke="rgba(99, 102, 241, 0.04)" stroke-width="1"/>
+    </pattern>
+
+    <linearGradient id="pipeGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00E5FF"/>
+      <stop offset="25%" stop-color="#00F2FE"/>
+      <stop offset="50%" stop-color="#8B5CF6"/>
+      <stop offset="75%" stop-color="#EC4899"/>
+      <stop offset="100%" stop-color="#10B981"/>
+    </linearGradient>
+
+    <style>
+      @keyframes cruisePhoton {
+        0% { stroke-dashoffset: 960; }
+        100% { stroke-dashoffset: 0; }
+      }
+      .pipe-active {
+        stroke-dasharray: 20, 20;
+        animation: cruisePhoton 8s linear infinite;
+      }
+      .mono-text { font-family: 'SF Mono', Monaco, 'Fira Code', 'Courier New', monospace; }
+      .sans-text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+    </style>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="1200" height="360" fill="#F8FAFC" rx="20"/>
+  <rect width="1200" height="360" fill="url(#flowGrid)" rx="20"/>
+
+  <!-- Section Title & Narrative -->
+  <g transform="translate(60, 48)">
+    <text x="0" y="16" class="mono-text" font-size="11" font-weight="700" fill="#00E5FF" letter-spacing="2">// 02 — ARCHITECTURE PIPELINE</text>
+    <text x="0" y="46" class="sans-text" font-size="24" font-weight="800" fill="#0F172A">Engineering Flow: Ideation to Production</text>
+    <text x="0" y="70" class="sans-text" font-size="14" fill="#475569">
+      Continuous data flow from modular React components down through REST API services into scalable persistence.
+    </text>
+  </g>
+
+  <!-- Connecting Backbone Conduit Line -->
+  <g>
+    <!-- Background Pipeline -->
+    <path d="M 120 190 L 1080 190" fill="none" stroke="rgba(148, 163, 184, 0.15)" stroke-width="4"/>
+    <!-- Animated Glowing Energy Line -->
+    <path d="M 120 190 L 1080 190" fill="none" stroke="url(#pipeGrad)" stroke-width="4" class="pipe-active"/>
+  </g>
+
+  <!-- Pipeline Nodes -->
+  
+        <!-- Node 01: IDE &amp; WORKSPACE -->
+        <g transform="translate(120, 190)">
+          <!-- Outer Pulsing Halo -->
+          <circle cx="0" cy="0" r="38" fill="#FFFFFF" stroke="#00E5FF" stroke-width="2"/>
+          <circle cx="0" cy="0" r="46" fill="none" stroke="#00E5FF" stroke-width="1" stroke-dasharray="3,3" opacity="0.4"/>
+          
+          <!-- Icon -->
+          <g transform="translate(-14, -14) scale(1.15)">
+            <svg width="24" height="24" viewBox="0 0 24 24"><path d="M17.5 2.5L7.2 10.5 3.5 7.5 1.5 8.5v7l2 1 3.7-3 10.3 8 4.5-2V4.5l-4.5-2zm0 4.2v10.6l-6.8-5.3 6.8-5.3z" fill="#007ACC"/></svg>
+          </g>
+
+          <!-- Step Label -->
+          <text x="0" y="62" text-anchor="middle" class="mono-text" font-size="11" font-weight="700" fill="#00E5FF" letter-spacing="1">[01] IDE &amp; WORKSPACE</text>
+          <text x="0" y="80" text-anchor="middle" class="sans-text" font-size="12" fill="#475569">VS Code • Git • Vite</text>
+        </g>
+        
+        <!-- Node 02: REACT &amp; TYPESCRIPT -->
+        <g transform="translate(360, 190)">
+          <!-- Outer Pulsing Halo -->
+          <circle cx="0" cy="0" r="38" fill="#FFFFFF" stroke="#00F2FE" stroke-width="2"/>
+          <circle cx="0" cy="0" r="46" fill="none" stroke="#00F2FE" stroke-width="1" stroke-dasharray="3,3" opacity="0.4"/>
+          
+          <!-- Icon -->
+          <g transform="translate(-14, -14) scale(1.15)">
+            <svg width="24" height="24" viewBox="0 0 24 24"><rect width="256" height="256" fill="#F4F2ED" rx="60"/><path fill="#00D8FF" d="M128.001 146.951C138.305 146.951 146.657 138.598 146.657 128.295C146.657 117.992 138.305 109.639 128.001 109.639C117.698 109.639 109.345 117.992 109.345 128.295C109.345 138.598 117.698 146.951 128.001 146.951Z"/><path fill-rule="evenodd" stroke="#00D8FF" stroke-width="8.911" d="M128.002 90.3633C153.05 90.3633 176.319 93.9575 193.864 99.9976C215.003 107.275 228 118.306 228 128.295C228 138.704 214.226 150.423 191.525 157.944C174.363 163.63 151.779 166.598 128.002 166.598C103.624 166.598 80.5389 163.812 63.1834 157.881C41.2255 150.376 28 138.506 28 128.295C28 118.387 40.4096 107.441 61.2515 100.175C78.8617 94.0353 102.705 90.3633 127.998 90.3633H128.002Z" clip-rule="evenodd"/><path fill-rule="evenodd" stroke="#00D8FF" stroke-width="8.911" d="M94.9811 109.438C107.495 87.7402 122.232 69.3783 136.23 57.1971C153.094 42.5206 169.144 36.7728 177.796 41.7623C186.813 46.9623 190.084 64.7496 185.259 88.1712C181.614 105.879 172.9 126.925 161.021 147.523C148.842 168.641 134.897 187.247 121.09 199.315C103.619 214.587 86.7284 220.114 77.8833 215.013C69.3003 210.067 66.0181 193.846 70.1356 172.161C73.6145 153.838 82.3451 131.349 94.977 109.438L94.9811 109.438Z" clip-rule="evenodd"/><path fill-rule="evenodd" stroke="#00D8FF" stroke-width="8.911" d="M95.0123 147.578C82.4633 125.904 73.9194 103.962 70.3531 85.7517C66.0602 63.8109 69.0954 47.0355 77.7401 42.0315C86.7485 36.8163 103.792 42.866 121.674 58.7437C135.194 70.7479 149.077 88.8052 160.99 109.383C173.204 130.481 182.358 151.856 185.919 169.844C190.425 192.608 186.778 210.001 177.941 215.116C169.367 220.08 153.676 214.825 136.945 200.427C122.809 188.263 107.685 169.468 95.0123 147.578Z" clip-rule="evenodd"/></svg>
+          </g>
+
+          <!-- Step Label -->
+          <text x="0" y="62" text-anchor="middle" class="mono-text" font-size="11" font-weight="700" fill="#00F2FE" letter-spacing="1">[02] REACT &amp; TYPESCRIPT</text>
+          <text x="0" y="80" text-anchor="middle" class="sans-text" font-size="12" fill="#475569">Components • State</text>
+        </g>
+        
+        <!-- Node 03: UI MOTION &amp; STYLING -->
+        <g transform="translate(600, 190)">
+          <!-- Outer Pulsing Halo -->
+          <circle cx="0" cy="0" r="38" fill="#FFFFFF" stroke="#8B5CF6" stroke-width="2"/>
+          <circle cx="0" cy="0" r="46" fill="none" stroke="#8B5CF6" stroke-width="1" stroke-dasharray="3,3" opacity="0.4"/>
+          
+          <!-- Icon -->
+          <g transform="translate(-14, -14) scale(1.15)">
+            <svg width="24" height="24" viewBox="0 0 24 24"><rect width="256" height="256" fill="#F4F2ED" rx="60"/><path fill="url(#paint0_linear_2_118)" fill-rule="evenodd" d="M83 110C88.9991 86.0009 104.001 74 128 74C164 74 168.5 101 186.5 105.5C198.501 108.501 209 104.001 218 92C212.001 115.999 196.999 128 173 128C137 128 132.5 101 114.5 96.5C102.499 93.4991 92 97.9991 83 110ZM38 164C43.9991 140.001 59.0009 128 83 128C119 128 123.5 155 141.5 159.5C153.501 162.501 164 158.001 173 146C167.001 169.999 151.999 182 128 182C92 182 87.5 155 69.5 150.5C57.4991 147.499 47 151.999 38 164Z" clip-rule="evenodd"/><defs><linearGradient id="paint0_linear_2_118" x1="86.5" x2="163.5" y1="74" y2="185.5" gradientUnits="userSpaceOnUse"><stop stop-color="#32B1C1"/><stop offset="1" stop-color="#14C6B7"/></linearGradient></defs></svg>
+          </g>
+
+          <!-- Step Label -->
+          <text x="0" y="62" text-anchor="middle" class="mono-text" font-size="11" font-weight="700" fill="#8B5CF6" letter-spacing="1">[03] UI MOTION &amp; STYLING</text>
+          <text x="0" y="80" text-anchor="middle" class="sans-text" font-size="12" fill="#475569">Tailwind • GSAP • Framer</text>
+        </g>
+        
+        <!-- Node 04: API &amp; AUTH LAYER -->
+        <g transform="translate(840, 190)">
+          <!-- Outer Pulsing Halo -->
+          <circle cx="0" cy="0" r="38" fill="#FFFFFF" stroke="#EC4899" stroke-width="2"/>
+          <circle cx="0" cy="0" r="46" fill="none" stroke="#EC4899" stroke-width="1" stroke-dasharray="3,3" opacity="0.4"/>
+          
+          <!-- Icon -->
+          <g transform="translate(-14, -14) scale(1.15)">
+            <svg width="24" height="24" viewBox="0 0 24 24"><path d="M12 2L3 7v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V7l-9-5z" fill="#D63AFF" opacity="0.2"/><circle cx="12" cy="12" r="4" fill="#D63AFF"/></svg>
+          </g>
+
+          <!-- Step Label -->
+          <text x="0" y="62" text-anchor="middle" class="mono-text" font-size="11" font-weight="700" fill="#EC4899" letter-spacing="1">[04] API &amp; AUTH LAYER</text>
+          <text x="0" y="80" text-anchor="middle" class="sans-text" font-size="12" fill="#475569">REST APIs • Axios • JWT</text>
+        </g>
+        
+        <!-- Node 05: DATA &amp; CLOUD -->
+        <g transform="translate(1080, 190)">
+          <!-- Outer Pulsing Halo -->
+          <circle cx="0" cy="0" r="38" fill="#FFFFFF" stroke="#10B981" stroke-width="2"/>
+          <circle cx="0" cy="0" r="46" fill="none" stroke="#10B981" stroke-width="1" stroke-dasharray="3,3" opacity="0.4"/>
+          
+          <!-- Icon -->
+          <g transform="translate(-14, -14) scale(1.15)">
+            <svg width="24" height="24" viewBox="0 0 24 24"><rect width="256" height="256" fill="#F4F2ED" rx="60"/><path fill="#81CD39" d="M119.878 31.1164C124.797 28.3008 131.203 28.2883 136.117 31.1164C160.839 45.0855 185.569 59.0332 210.287 73.0108C214.937 75.6296 218.046 80.8038 217.999 86.1608V170.206C218.034 175.785 214.617 181.083 209.712 183.642C185.071 197.535 160.442 211.444 135.805 225.337C130.786 228.207 124.251 227.986 119.387 224.88C112 220.598 104.6 216.336 97.2121 212.058C95.7022 211.158 94.0004 210.442 92.9345 208.978C93.8766 207.708 95.5618 207.55 96.9309 206.995C100.014 206.014 102.847 204.44 105.679 202.913C106.396 202.423 107.27 202.611 107.957 203.049C114.274 206.671 120.536 210.399 126.874 213.986C128.226 214.767 129.595 213.73 130.751 213.086C154.931 199.419 179.141 185.805 203.318 172.134C204.214 171.703 204.709 170.752 204.636 169.771C204.653 142.046 204.64 114.317 204.645 86.5918C204.747 85.4785 204.103 84.455 203.096 83.999C178.541 70.1702 153.997 56.3205 129.446 42.4882C128.575 41.8893 127.426 41.8878 126.554 42.4837C102.002 56.3205 77.4638 70.1832 52.9124 84.011C51.9092 84.4675 51.236 85.4745 51.3554 86.5918C51.3596 114.317 51.3554 142.046 51.3554 169.775C51.2682 170.756 51.801 171.687 52.6906 172.109C59.2422 175.824 65.8024 179.513 72.3582 183.216C76.0516 185.203 80.5863 186.385 84.6555 184.862C88.2463 183.574 90.7633 179.909 90.6948 176.097C90.7288 148.534 90.6778 120.967 90.7203 93.4078C90.6309 92.1841 91.7912 91.1731 92.981 91.2885C96.1292 91.267 99.281 91.2461 102.429 91.297C103.743 91.267 104.647 92.5847 104.485 93.8174C104.472 121.555 104.519 149.293 104.464 177.03C104.472 184.423 101.435 192.467 94.5973 196.084C86.1737 200.447 75.7619 199.522 67.4399 195.338C60.2355 191.742 53.3603 187.498 46.2838 183.646C41.3661 181.101 37.966 175.782 38.0006 170.207V86.1608C37.949 80.6929 41.1825 75.4248 45.9764 72.8445C70.6133 58.9408 95.2461 45.0261 119.878 31.1164Z"/><path fill="#81CD39" d="M141.372 89.3351C152.117 88.6433 163.62 88.9255 173.289 94.2185C180.776 98.2754 184.926 106.789 185.058 115.106C184.849 116.227 183.676 116.846 182.605 116.769C179.488 116.765 176.369 116.812 173.252 116.748C171.929 116.799 171.161 115.58 170.995 114.411C170.099 110.431 167.928 106.49 164.183 104.57C158.433 101.692 151.767 101.837 145.496 101.897C140.92 102.139 135.998 102.536 132.12 105.227C129.143 107.266 128.239 111.382 129.301 114.697C130.303 117.077 133.05 117.845 135.298 118.553C148.248 121.94 161.97 121.602 174.671 126.059C179.931 127.876 185.075 131.409 186.875 136.915C189.23 144.295 188.198 153.115 182.947 159.039C178.689 163.914 172.488 166.568 166.303 168.009C158.075 169.844 149.536 169.891 141.18 169.076C133.323 168.18 125.146 166.116 119.081 160.763C113.894 156.259 111.361 149.241 111.612 142.469C111.672 141.325 112.811 140.527 113.907 140.621C117.046 140.596 120.186 140.587 123.325 140.626C124.579 140.536 125.509 141.62 125.573 142.802C126.152 146.593 127.577 150.573 130.883 152.82C137.264 156.937 145.271 156.655 152.577 156.77C158.629 156.502 165.424 156.421 170.364 152.42C172.97 150.138 173.742 146.32 173.038 143.036C172.275 140.263 169.374 138.971 166.883 138.126C154.1 134.083 140.224 135.55 127.565 130.977C122.425 129.161 117.455 125.727 115.481 120.447C112.726 112.974 113.988 103.73 119.789 98.0061C125.445 92.312 133.609 90.1192 141.372 89.3346V89.3351"/></svg>
+          </g>
+
+          <!-- Step Label -->
+          <text x="0" y="62" text-anchor="middle" class="mono-text" font-size="11" font-weight="700" fill="#10B981" letter-spacing="1">[05] DATA &amp; CLOUD</text>
+          <text x="0" y="80" text-anchor="middle" class="sans-text" font-size="12" fill="#475569">Node • Express • MongoDB</text>
+        </g>
+        
+</svg>

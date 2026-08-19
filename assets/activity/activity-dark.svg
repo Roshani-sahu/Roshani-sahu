@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 240" width="100%" height="100%">
+  <defs>
+    <pattern id="actGridLive" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M 48 0 L 0 0 0 48" fill="none" stroke="rgba(99, 102, 241, 0.05)" stroke-width="1"/>
+    </pattern>
+    <style>
+      .mono-text { font-family: 'SF Mono', Monaco, 'Fira Code', 'Courier New', monospace; }
+      .sans-text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="240" fill="#070A12" rx="20"/>
+  <rect width="1200" height="240" fill="url(#actGridLive)" rx="20"/>
+
+  <g transform="translate(60, 42)">
+    <text x="0" y="14" class="mono-text" font-size="11" font-weight="700" fill="#10B981" letter-spacing="2">// 05 — GITHUB ACTIVITY</text>
+    <text x="0" y="42" class="sans-text" font-size="22" font-weight="800" fill="#F8FAFC">Developer Pulse &amp; Open Source Footprint</text>
+    <text x="1080" y="40" text-anchor="end" class="mono-text" font-size="12" fill="#00E5FF">@Roshani-sahu • 25+ Public Repos</text>
+  </g>
+
+  <g transform="translate(60, 105)">
+    <g transform="translate(0, 0)">
+      <rect width="345" height="98" rx="10" fill="#0E1526" stroke="rgba(0, 229, 255, 0.2)" stroke-width="1.2"/>
+      <rect width="4" height="98" rx="2" fill="#00E5FF"/>
+      <text x="20" y="32" class="mono-text" font-size="11" font-weight="700" fill="#00E5FF">PRIMARY ECOSYSTEM</text>
+      <text x="20" y="62" class="sans-text" font-size="20" font-weight="800" fill="#F8FAFC">React &amp; TypeScript</text>
+      <text x="20" y="82" class="sans-text" font-size="12" fill="#64748B">Interface systems &amp; modern web apps</text>
+    </g>
+
+    <g transform="translate(365, 0)">
+      <rect width="345" height="98" rx="10" fill="#0E1526" stroke="rgba(0, 229, 255, 0.2)" stroke-width="1.2"/>
+      <rect width="4" height="98" rx="2" fill="#8B5CF6"/>
+      <text x="20" y="32" class="mono-text" font-size="11" font-weight="700" fill="#8B5CF6">FULL-STACK FLOW</text>
+      <text x="20" y="62" class="sans-text" font-size="20" font-weight="800" fill="#F8FAFC">MERN Services</text>
+      <text x="20" y="82" class="sans-text" font-size="12" fill="#64748B">Node.js, Express &amp; MongoDB pipelines</text>
+    </g>
+
+    <g transform="translate(730, 0)">
+      <rect width="350" height="98" rx="10" fill="#0E1526" stroke="rgba(0, 229, 255, 0.2)" stroke-width="1.2"/>
+      <rect width="4" height="98" rx="2" fill="#10B981"/>
+      <text x="20" y="32" class="mono-text" font-size="11" font-weight="700" fill="#10B981">PRODUCTION STANDARDS</text>
+      <text x="20" y="62" class="sans-text" font-size="20" font-weight="800" fill="#F8FAFC">Clean Architecture</text>
+      <text x="20" y="82" class="sans-text" font-size="12" fill="#64748B">Performance, responsiveness &amp; UX fidelity</text>
+    </g>
+  </g>
+</svg>

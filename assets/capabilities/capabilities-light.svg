@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="100%" height="100%">
+  <defs>
+    <pattern id="capGrid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M 48 0 L 0 0 0 48" fill="none" stroke="rgba(99, 102, 241, 0.04)" stroke-width="1"/>
+    </pattern>
+
+    <radialGradient id="centerGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00E5FF" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#00E5FF" stop-opacity="0"/>
+    </radialGradient>
+
+    <style>
+      .mono-text { font-family: 'SF Mono', Monaco, 'Fira Code', 'Courier New', monospace; }
+      .sans-text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+    </style>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="1200" height="420" fill="#F8FAFC" rx="20"/>
+  <rect width="1200" height="420" fill="url(#capGrid)" rx="20"/>
+
+  <!-- Section Header -->
+  <g transform="translate(60, 45)">
+    <text x="0" y="16" class="mono-text" font-size="11" font-weight="700" fill="#00E5FF" letter-spacing="2">// 04 — CAPABILITIES &amp; DOMAINS</text>
+    <text x="0" y="46" class="sans-text" font-size="24" font-weight="800" fill="#0F172A">Technology Spectrum &amp; Core Competencies</text>
+  </g>
+
+  <!-- 4 Major Domain Columns (Spacious, Open & Clear) -->
+  <g transform="translate(60, 110)">
+    <!-- Domain 1: FRONTEND -->
+    <g transform="translate(0, 0)">
+      <rect width="255" height="260" rx="12" fill="#FFFFFF" stroke="rgba(99, 102, 241, 0.2)" stroke-width="1.2"/>
+      <rect width="255" height="4" rx="2" fill="#00E5FF"/>
+      <text x="24" y="36" class="mono-text" font-size="12" font-weight="700" fill="#00E5FF" letter-spacing="1">01 // FRONTEND</text>
+      <text x="24" y="65" class="sans-text" font-size="18" font-weight="800" fill="#0F172A">Interface Architecture</text>
+      
+      <g transform="translate(24, 90)">
+        <text x="0" y="16" class="sans-text" font-size="13.5" font-weight="600" fill="#0F172A">• React.js &amp; Vite</text>
+        <text x="0" y="42" class="sans-text" font-size="13.5" font-weight="600" fill="#0F172A">• TypeScript &amp; ES6+</text>
+        <text x="0" y="68" class="sans-text" font-size="13.5" font-weight="600" fill="#0F172A">• Tailwind CSS</text>
+        <text x="0" y="94" class="sans-text" font-size="13.5" font-weight="600" fill="#0F172A">• HTML5 &amp; CSS3</text>
+        <text x="0" y="120" class="sans-text" font-size="13.5" font-weight="600" fill="#0F172A">• React Router</text>
+      </g>
+    </g>
+
+    <!-- Domain 2: MOTION & UI -->
+    <g transform="translate(275, 0)">
+      <rect width="255" height="260" rx="12" fill="#FFFFFF" stroke="rgba(99, 102, 241, 0.2)" stroke-width="1.2"/>
+      <rect width="255" height="4" rx="2" fill="#8B5CF6"/>
+      <text x="24" y="36" class="mono-text" font-size="12" font-weight="700" fill="#8B5CF6" letter-spacing="1">02 // MOTION &amp; UX</text>
+      <text x="24" y="65" class="sans-text" font-size="18" font-weight="800" fill="#0F172A">Interaction &amp; Visuals</text>
+      
+      <g transform="translate(24, 90)">
+        <text x="0" y="16" class="sans-text" font-size="13.5" font-weight="600" fill="#0F172A">• Framer Motion</text>
+        <text x="0" y="42" class="sans-text" font-size="13.5" font-weight="600" fill="#0F172A">• GSAP &amp; ScrollTrigger</text>
+        <text x="0" y="68" class="sans-text" font-size="13.5" font-weight="600" fill="#0F172A">• Chart.js &amp; ApexCharts</text>
+        <text x="0" y="94" class="sans-text" font-size="13.5" font-weight="600" fill="#0F172A">• Micro-Interactions</text>
+        <text x="0" y="120" class="sans-text" font-size="13.5" font-weight="600" fill="#0F172A">• Responsive Fidelity</text>
+      </g>
+    </g>
+
+    <!-- Domain 3: BACKEND & APIS -->
+    <g transform="translate(550, 0)">
+      <rect width="255" height="260" rx="12" fill="#FFFFFF" stroke="rgba(99, 102, 241, 0.2)" stroke-width="1.2"/>
+      <rect width="255" height="4" rx="2" fill="#EC4899"/>
+      <text x="24" y="36" class="mono-text" font-size="12" font-weight="700" fill="#EC4899" letter-spacing="1">03 // SERVICES</text>
+      <text x="24" y="65" class="sans-text" font-size="18" font-weight="800" fill="#0F172A">Backend &amp; APIs</text>
+      
+      <g transform="translate(24, 90)">
+        <text x="0" y="16" class="sans-text" font-size="13.5" font-weight="600" fill="#0F172A">• Node.js &amp; Express</text>
+        <text x="0" y="42" class="sans-text" font-size="13.5" font-weight="600" fill="#0F172A">• RESTful API Design</text>
+        <text x="0" y="68" class="sans-text" font-size="13.5" font-weight="600" fill="#0F172A">• JWT &amp; Auth Flows</text>
+        <text x="0" y="94" class="sans-text" font-size="13.5" font-weight="600" fill="#0F172A">• Axios Integration</text>
+        <text x="0" y="120" class="sans-text" font-size="13.5" font-weight="600" fill="#0F172A">• bcrypt Security</text>
+      </g>
+    </g>
+
+    <!-- Domain 4: DATA & CLOUD -->
+    <g transform="translate(825, 0)">
+      <rect width="255" height="260" rx="12" fill="#FFFFFF" stroke="rgba(99, 102, 241, 0.2)" stroke-width="1.2"/>
+      <rect width="255" height="4" rx="2" fill="#10B981"/>
+      <text x="24" y="36" class="mono-text" font-size="12" font-weight="700" fill="#10B981" letter-spacing="1">04 // PERSISTENCE</text>
+      <text x="24" y="65" class="sans-text" font-size="18" font-weight="800" fill="#0F172A">Data &amp; Tooling</text>
+      
+      <g transform="translate(24, 90)">
+        <text x="0" y="16" class="sans-text" font-size="13.5" font-weight="600" fill="#0F172A">• MongoDB &amp; MySQL</text>
+        <text x="0" y="42" class="sans-text" font-size="13.5" font-weight="600" fill="#0F172A">• Sequelize ORM</text>
+        <text x="0" y="68" class="sans-text" font-size="13.5" font-weight="600" fill="#0F172A">• Git &amp; GitHub</text>
+        <text x="0" y="94" class="sans-text" font-size="13.5" font-weight="600" fill="#0F172A">• Postman &amp; npm</text>
+        <text x="0" y="120" class="sans-text" font-size="13.5" font-weight="600" fill="#0F172A">• Vercel &amp; Netlify</text>
+      </g>
+    </g>
+  </g>
+</svg>

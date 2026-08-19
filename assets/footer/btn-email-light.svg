@@ -1,19 +1,19 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 90" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 84" width="100%" height="100%">
   <defs>
     <style>
       .mono-text { font-family: 'SF Mono', Monaco, 'Fira Code', 'Courier New', monospace; }
       .sans-text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
     </style>
   </defs>
-  <rect width="380" height="90" rx="10" fill="#FFFFFF" stroke="rgba(99, 102, 241, 0.2)" stroke-width="1.5"/>
-  <rect width="4" height="90" rx="2" fill="#10B981"/>
+  <rect width="360" height="84" rx="10" fill="#FFFFFF" stroke="rgba(99, 102, 241, 0.25)" stroke-width="1.5"/>
+  <rect width="4" height="84" rx="2" fill="#10B981"/>
   
-  <g transform="translate(20, 23) scale(1.8)">
+  <g transform="translate(20, 20) scale(1.8)">
     <svg width="24" height="24" viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" fill="#10B981"/></svg>
   </g>
 
-  <g transform="translate(80, 24)">
-    <text x="0" y="16" class="sans-text" font-size="14" font-weight="700" fill="#0F172A">Direct Email</text>
-    <text x="0" y="38" class="mono-text" font-size="12" fill="#10B981">roshani032003@gmail.com</text>
+  <g transform="translate(80, 22)">
+    <text x="0" y="16" class="sans-text" font-size="14" font-weight="700" fill="#0F172A">Email Direct</text>
+    <text x="0" y="36" class="mono-text" font-size="12" fill="#10B981">roshani032003@gmail.com</text>
   </g>
 </svg>
