@@ -1,0 +1,52 @@
+name: Automated Profile Telemetry Refresh
+
+on:
+  schedule:
+    # Run daily at 00:00 UTC
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - 'tools/update_roshani_telemetry.py'
+      - 'tools/build_roshani_assets.py'
+      - '.github/workflows/update-telemetry.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  update-telemetry:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Run Telemetry Refresh
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_USER: ${{ github.repository_owner }}
+        run: |
+          python tools/update_roshani_telemetry.py
+          python tools/build_roshani_assets.py
+
+      - name: Commit and Push Updated Assets
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add assets/ generated/
+          if git diff --staged --quiet; then
+            echo "No telemetry changes to commit."
+          else
+            git commit -m "chore(telemetry): auto-update live metrics and assets [skip ci]"
+            git push origin main
+          fi

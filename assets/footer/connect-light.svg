@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 240" width="100%" height="100%">
+  <defs>
+    <pattern id="footGrid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(99, 102, 241, 0.04)" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="footAccent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00E5FF"/>
+      <stop offset="50%" stop-color="#8B5CF6"/>
+      <stop offset="100%" stop-color="#EC4899"/>
+    </linearGradient>
+    <style>
+      .mono-text { font-family: 'SF Mono', Monaco, 'Fira Code', 'Courier New', monospace; }
+      .sans-text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+    </style>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="1200" height="240" fill="#F8FAFC" rx="16"/>
+  <rect width="1200" height="240" fill="url(#footGrid)" rx="16"/>
+  <rect x="20" y="20" width="1160" height="200" rx="14" fill="none" stroke="rgba(99, 102, 241, 0.2)" stroke-width="1.5"/>
+
+  <!-- Top Accent Bar -->
+  <rect x="20" y="20" width="1160" height="3" fill="url(#footAccent)"/>
+
+  <!-- Center Content -->
+  <g transform="translate(60, 55)">
+    <text x="0" y="24" class="mono-text" font-size="11" font-weight="700" fill="#00E5FF" letter-spacing="2">06 // GET IN TOUCH</text>
+    <text x="0" y="60" class="sans-text" font-size="26" font-weight="800" fill="#0F172A">Let's Build Something Exceptional Together</text>
+    <text x="0" y="90" class="sans-text" font-size="14" fill="#475569">
+      Open for frontend engineering roles, React development, full-stack opportunities, and innovative web projects.
+    </text>
+  </g>
+
+  <!-- Channels Info Box -->
+  <g transform="translate(760, 50)">
+    <rect width="380" height="135" rx="8" fill="#FFFFFF" stroke="rgba(99, 102, 241, 0.2)" stroke-width="1.2"/>
+    
+    <!-- GitHub -->
+    <g transform="translate(20, 24)">
+      <circle cx="6" cy="6" r="3.5" fill="#00E5FF"/>
+      <text x="20" y="10" class="sans-text" font-size="12.5" font-weight="700" fill="#0F172A">GitHub:</text>
+      <text x="80" y="10" class="mono-text" font-size="12" fill="#00E5FF">github.com/Roshani-sahu</text>
+    </g>
+
+    <!-- LinkedIn -->
+    <g transform="translate(20, 60)">
+      <circle cx="6" cy="6" r="3.5" fill="#8B5CF6"/>
+      <text x="20" y="10" class="sans-text" font-size="12.5" font-weight="700" fill="#0F172A">LinkedIn:</text>
+      <text x="90" y="10" class="mono-text" font-size="12" fill="#8B5CF6">roshani-sahu-1606b5228</text>
+    </g>
+
+    <!-- Email -->
+    <g transform="translate(20, 96)">
+      <circle cx="6" cy="6" r="3.5" fill="#10B981"/>
+      <text x="20" y="10" class="sans-text" font-size="12.5" font-weight="700" fill="#0F172A">Email:</text>
+      <text x="75" y="10" class="mono-text" font-size="12" fill="#10B981">roshani032003@gmail.com</text>
+    </g>
+  </g>
+</svg>

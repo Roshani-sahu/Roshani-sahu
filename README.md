@@ -1,32 +1,87 @@
-# 👋 Hi, I'm Roshani Sahu!
+<div align="center">
 
-💻 Aspiring Frontend Developer
-Passionate about clean UI, responsive design, and building meaningful user experiences.  
-🌱 Currently learning React, Tailwind CSS, and JavaScript frameworks.  
+<!-- ================================================================= -->
+<!-- 01 — HERO HEADER: ROSHANI SAHU                                    -->
+<!-- ================================================================= -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/hero/hero-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/hero/hero-light.svg">
+  <img src="./assets/hero/hero-dark.svg" alt="Roshani Sahu — Frontend Engineer &amp; MERN Developer" width="100%">
+</picture>
 
----
+<br><br>
 
-## 🛠️ Tech Stack
+<!-- ================================================================= -->
+<!-- 02 — ENGINEERING STACK & COMPONENT ARCHITECTURE                   -->
+<!-- ================================================================= -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/stack/stack-flow-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/stack/stack-flow-light.svg">
+  <img src="./assets/stack/stack-flow-dark.svg" alt="Frontend Engine &amp; Full-Stack Component Pipeline" width="100%">
+</picture>
 
-**Languages & Tools:**  
-![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat&logo=html5&logoColor=white)  ![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat&logo=css3&logoColor=white)  ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)  ![React](https://img.shields.io/badge/-React-61DAFB?style=flat&logo=react&logoColor=black)  ![Tailwind CSS](https://img.shields.io/badge/-Tailwind-38B2AC?style=flat&logo=tailwind-css&logoColor=white)  ![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat&logo=node.js&logoColor=white)  ![Git](https://img.shields.io/badge/-Git-F05032?style=flat&logo=git&logoColor=white)  ![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat&logo=github&logoColor=white)  ![VS Code](https://img.shields.io/badge/-VS%20Code-007ACC?style=flat&logo=visual-studio-code&logoColor=white)
+<br><br>
 
----
+<!-- ================================================================= -->
+<!-- 03 — FEATURED PROJECTS SHOWCASE                                   -->
+<!-- ================================================================= -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/projects/showcase-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/projects/showcase-light.svg">
+  <img src="./assets/projects/showcase-dark.svg" alt="Featured Engineering Implementations" width="100%">
+</picture>
 
-## 📈 GitHub Stats
+<br><br>
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Roshani-sahu&show_icons=true&theme=radical)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Roshani-sahu&layout=compact&hide_border=true&theme=radical)
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=Roshani-sahu&theme=radical&hide_border=false)
+<!-- ================================================================= -->
+<!-- 04 — ENGINEERING FOCUS & CORE COMPETENCIES                        -->
+<!-- ================================================================= -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/focus/focus-matrix-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/focus/focus-matrix-light.svg">
+  <img src="./assets/focus/focus-matrix-dark.svg" alt="Engineering Focus &amp; Competency Matrix" width="100%">
+</picture>
 
----
+<br><br>
 
-## 🌐 Connect With Me
+<!-- ================================================================= -->
+<!-- 05 — GITHUB TELEMETRY & ACTIVITY PULSE                            -->
+<!-- ================================================================= -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity/telemetry-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/activity/telemetry-light.svg">
+  <img src="./assets/activity/telemetry-dark.svg" alt="Developer Activity &amp; Engineering Pulse" width="100%">
+</picture>
 
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/roshani-sahu-1606b5228)  [![Gmail](https://img.shields.io/badge/-Gmail-D14836?style=flat&logo=gmail&logoColor=white)](mailto:roshani032003@gmail.com)
+<br><br>
 
----
+<!-- ================================================================= -->
+<!-- 06 — INTERACTIVE CONTACT & CONNECT HUB                            -->
+<!-- ================================================================= -->
+<p align="center">
+  <a href="https://github.com/Roshani-sahu" target="_blank" rel="noopener noreferrer">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="./assets/footer/btn-github-dark.svg">
+      <source media="(prefers-color-scheme: light)" srcset="./assets/footer/btn-github-light.svg">
+      <img src="./assets/footer/btn-github-dark.svg" alt="GitHub Profile" width="31.5%">
+    </picture>
+  </a>
+  &nbsp;
+  <a href="https://www.linkedin.com/in/roshani-sahu-1606b5228" target="_blank" rel="noopener noreferrer">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="./assets/footer/btn-linkedin-dark.svg">
+      <source media="(prefers-color-scheme: light)" srcset="./assets/footer/btn-linkedin-light.svg">
+      <img src="./assets/footer/btn-linkedin-dark.svg" alt="LinkedIn Network" width="31.5%">
+    </picture>
+  </a>
+  &nbsp;
+  <a href="mailto:roshani032003@gmail.com" target="_blank" rel="noopener noreferrer">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="./assets/footer/btn-email-dark.svg">
+      <source media="(prefers-color-scheme: light)" srcset="./assets/footer/btn-email-light.svg">
+      <img src="./assets/footer/btn-email-dark.svg" alt="Email Direct" width="31.5%">
+    </picture>
+  </a>
+</p>
 
-## ✨ Quote I Believe In
-
-> “Code is not just a tool; it's the paintbrush for tomorrow's digital canvas.” 
+</div>

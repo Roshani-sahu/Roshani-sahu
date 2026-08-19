@@ -1,0 +1,190 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 560" width="100%" height="100%">
+  <defs>
+    <pattern id="projGrid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(99, 102, 241, 0.06)" stroke-width="1"/>
+    </pattern>
+    <style>
+      .mono-text { font-family: 'SF Mono', Monaco, 'Fira Code', 'Courier New', monospace; }
+      .sans-text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+    </style>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="1200" height="560" fill="#0B0F19" rx="16"/>
+  <rect width="1200" height="560" fill="url(#projGrid)" rx="16"/>
+  <rect x="20" y="20" width="1160" height="520" rx="14" fill="none" stroke="rgba(99, 102, 241, 0.2)" stroke-width="1.5"/>
+
+  <!-- Section Header -->
+  <g transform="translate(40, 45)">
+    <rect x="0" y="0" width="165" height="24" rx="4" fill="rgba(139, 92, 246, 0.1)" stroke="rgba(139, 92, 246, 0.3)" stroke-width="1"/>
+    <text x="10" y="16" class="mono-text" font-size="11" font-weight="700" fill="#8B5CF6" letter-spacing="2">03 // PROJECTS</text>
+    <text x="185" y="18" class="sans-text" font-size="18" font-weight="700" fill="#F8FAFC">Featured Engineering Implementations</text>
+    <text x="1120" y="17" text-anchor="end" class="mono-text" font-size="11" fill="#64748B">PRODUCTION &amp; CLIENT SYSTEMS</text>
+    <line x1="0" y1="36" x2="1120" y2="36" stroke="rgba(99, 102, 241, 0.2)" stroke-width="1"/>
+  </g>
+
+  <!-- Grid of Cards -->
+  
+        <!-- Card 01: Magdha Studios -->
+        <g transform="translate(40, 95)">
+          <!-- Card Container -->
+          <rect width="550" height="205" rx="10" fill="#111827" stroke="rgba(99, 102, 241, 0.2)" stroke-width="1.2"/>
+          <rect width="5" height="205" rx="2.5" fill="#00E5FF"/>
+
+          <!-- Card Header -->
+          <text x="24" y="32" class="mono-text" font-size="11" font-weight="700" fill="#00E5FF" letter-spacing="1.5">PROJECT // 01</text>
+          <rect x="400" y="16" width="130" height="22" rx="11" fill="rgba(16, 185, 129, 0.08)" stroke="rgba(16, 185, 129, 0.25)" stroke-width="1"/>
+          <circle cx="414" cy="27" r="3" fill="#10B981"/>
+          <text x="424" y="31" class="mono-text" font-size="10" font-weight="600" fill="#10B981">Production Release</text>
+
+          <!-- Project Title & Subtitle -->
+          <text x="24" y="62" class="sans-text" font-size="20" font-weight="700" fill="#F8FAFC">Magdha Studios</text>
+          <text x="24" y="82" class="sans-text" font-size="12.5" font-weight="600" fill="#94A3B8">Interactive Game Promotion Platform</text>
+
+          <!-- Description (2 lines) -->
+          <text x="24" y="112" class="sans-text" font-size="12" fill="#64748B">High-impact gaming showcase portal engineered with modular React componentr...</text>
+          <text x="24" y="130" class="sans-text" font-size="12" fill="#64748B">y, fluid UI animations, dynamic interactive showcases, and low-latency asse...</text>
+
+          <!-- Tech Tags -->
+          
+            <rect x="24" y="165" width="76.0" height="24" rx="4" fill="rgba(139, 92, 246, 0.12)" stroke="rgba(139, 92, 246, 0.25)" stroke-width="1"/>
+            <text x="62.0" y="181" text-anchor="middle" class="mono-text" font-size="10.5" font-weight="600" fill="#8B5CF6">React.js</text>
+            
+            <rect x="108.0" y="165" width="106.0" height="24" rx="4" fill="rgba(139, 92, 246, 0.12)" stroke="rgba(139, 92, 246, 0.25)" stroke-width="1"/>
+            <text x="161.0" y="181" text-anchor="middle" class="mono-text" font-size="10.5" font-weight="600" fill="#8B5CF6">Tailwind CSS</text>
+            
+            <rect x="222.0" y="165" width="91.0" height="24" rx="4" fill="rgba(139, 92, 246, 0.12)" stroke="rgba(139, 92, 246, 0.25)" stroke-width="1"/>
+            <text x="267.5" y="181" text-anchor="middle" class="mono-text" font-size="10.5" font-weight="600" fill="#8B5CF6">JavaScript</text>
+            
+            <rect x="321.0" y="165" width="83.5" height="24" rx="4" fill="rgba(139, 92, 246, 0.12)" stroke="rgba(139, 92, 246, 0.25)" stroke-width="1"/>
+            <text x="362.75" y="181" text-anchor="middle" class="mono-text" font-size="10.5" font-weight="600" fill="#8B5CF6">Motion UI</text>
+            
+            <rect x="412.5" y="165" width="46.0" height="24" rx="4" fill="rgba(139, 92, 246, 0.12)" stroke="rgba(139, 92, 246, 0.25)" stroke-width="1"/>
+            <text x="435.5" y="181" text-anchor="middle" class="mono-text" font-size="10.5" font-weight="600" fill="#8B5CF6">Vite</text>
+            
+        </g>
+        
+
+        <!-- Card 02: Get2Vacation CMS -->
+        <g transform="translate(610, 95)">
+          <!-- Card Container -->
+          <rect width="550" height="205" rx="10" fill="#111827" stroke="rgba(99, 102, 241, 0.2)" stroke-width="1.2"/>
+          <rect width="5" height="205" rx="2.5" fill="#8B5CF6"/>
+
+          <!-- Card Header -->
+          <text x="24" y="32" class="mono-text" font-size="11" font-weight="700" fill="#8B5CF6" letter-spacing="1.5">PROJECT // 02</text>
+          <rect x="400" y="16" width="130" height="22" rx="11" fill="rgba(16, 185, 129, 0.08)" stroke="rgba(16, 185, 129, 0.25)" stroke-width="1"/>
+          <circle cx="414" cy="27" r="3" fill="#10B981"/>
+          <text x="424" y="31" class="mono-text" font-size="10" font-weight="600" fill="#10B981">Enterprise Core</text>
+
+          <!-- Project Title & Subtitle -->
+          <text x="24" y="62" class="sans-text" font-size="20" font-weight="700" fill="#F8FAFC">Get2Vacation CMS</text>
+          <text x="24" y="82" class="sans-text" font-size="12.5" font-weight="600" fill="#94A3B8">Travel Content Management System &amp; Suite</text>
+
+          <!-- Description (2 lines) -->
+          <text x="24" y="112" class="sans-text" font-size="12" fill="#64748B">Comprehensive administrative dashboard with dynamic CRUD workflows, destina...</text>
+          <text x="24" y="130" class="sans-text" font-size="12" fill="#64748B">tion catalog managers, package builders, and integrated REST API pipelines ...</text>
+
+          <!-- Tech Tags -->
+          
+            <rect x="24" y="165" width="76.0" height="24" rx="4" fill="rgba(139, 92, 246, 0.12)" stroke="rgba(139, 92, 246, 0.25)" stroke-width="1"/>
+            <text x="62.0" y="181" text-anchor="middle" class="mono-text" font-size="10.5" font-weight="600" fill="#8B5CF6">React.js</text>
+            
+            <rect x="108.0" y="165" width="106.0" height="24" rx="4" fill="rgba(139, 92, 246, 0.12)" stroke="rgba(139, 92, 246, 0.25)" stroke-width="1"/>
+            <text x="161.0" y="181" text-anchor="middle" class="mono-text" font-size="10.5" font-weight="600" fill="#8B5CF6">Tailwind CSS</text>
+            
+            <rect x="222.0" y="165" width="68.5" height="24" rx="4" fill="rgba(139, 92, 246, 0.12)" stroke="rgba(139, 92, 246, 0.25)" stroke-width="1"/>
+            <text x="256.25" y="181" text-anchor="middle" class="mono-text" font-size="10.5" font-weight="600" fill="#8B5CF6">Node.js</text>
+            
+            <rect x="298.5" y="165" width="91.0" height="24" rx="4" fill="rgba(139, 92, 246, 0.12)" stroke="rgba(139, 92, 246, 0.25)" stroke-width="1"/>
+            <text x="344.0" y="181" text-anchor="middle" class="mono-text" font-size="10.5" font-weight="600" fill="#8B5CF6">Express.js</text>
+            
+            <rect x="397.5" y="165" width="83.5" height="24" rx="4" fill="rgba(139, 92, 246, 0.12)" stroke="rgba(139, 92, 246, 0.25)" stroke-width="1"/>
+            <text x="439.25" y="181" text-anchor="middle" class="mono-text" font-size="10.5" font-weight="600" fill="#8B5CF6">REST APIs</text>
+            
+            <rect x="489.0" y="165" width="53.5" height="24" rx="4" fill="rgba(139, 92, 246, 0.12)" stroke="rgba(139, 92, 246, 0.25)" stroke-width="1"/>
+            <text x="515.75" y="181" text-anchor="middle" class="mono-text" font-size="10.5" font-weight="600" fill="#8B5CF6">Axios</text>
+            
+        </g>
+        
+
+        <!-- Card 03: Get2Vacations Portal -->
+        <g transform="translate(40, 320)">
+          <!-- Card Container -->
+          <rect width="550" height="205" rx="10" fill="#111827" stroke="rgba(99, 102, 241, 0.2)" stroke-width="1.2"/>
+          <rect width="5" height="205" rx="2.5" fill="#10B981"/>
+
+          <!-- Card Header -->
+          <text x="24" y="32" class="mono-text" font-size="11" font-weight="700" fill="#10B981" letter-spacing="1.5">PROJECT // 03</text>
+          <rect x="400" y="16" width="130" height="22" rx="11" fill="rgba(16, 185, 129, 0.08)" stroke="rgba(16, 185, 129, 0.25)" stroke-width="1"/>
+          <circle cx="414" cy="27" r="3" fill="#10B981"/>
+          <text x="424" y="31" class="mono-text" font-size="10" font-weight="600" fill="#10B981">Active Deployment</text>
+
+          <!-- Project Title & Subtitle -->
+          <text x="24" y="62" class="sans-text" font-size="20" font-weight="700" fill="#F8FAFC">Get2Vacations Portal</text>
+          <text x="24" y="82" class="sans-text" font-size="12.5" font-weight="600" fill="#94A3B8">Travel Discovery &amp; Booking Experience</text>
+
+          <!-- Description (2 lines) -->
+          <text x="24" y="112" class="sans-text" font-size="12" fill="#64748B">Consumer travel portal featuring high-performance React Router client-side ...</text>
+          <text x="24" y="130" class="sans-text" font-size="12" fill="#64748B">navigation, dynamic query filtering, and scalable component architecture fo...</text>
+
+          <!-- Tech Tags -->
+          
+            <rect x="24" y="165" width="76.0" height="24" rx="4" fill="rgba(139, 92, 246, 0.12)" stroke="rgba(139, 92, 246, 0.25)" stroke-width="1"/>
+            <text x="62.0" y="181" text-anchor="middle" class="mono-text" font-size="10.5" font-weight="600" fill="#8B5CF6">React.js</text>
+            
+            <rect x="108.0" y="165" width="106.0" height="24" rx="4" fill="rgba(139, 92, 246, 0.12)" stroke="rgba(139, 92, 246, 0.25)" stroke-width="1"/>
+            <text x="161.0" y="181" text-anchor="middle" class="mono-text" font-size="10.5" font-weight="600" fill="#8B5CF6">Tailwind CSS</text>
+            
+            <rect x="222.0" y="165" width="106.0" height="24" rx="4" fill="rgba(139, 92, 246, 0.12)" stroke="rgba(139, 92, 246, 0.25)" stroke-width="1"/>
+            <text x="275.0" y="181" text-anchor="middle" class="mono-text" font-size="10.5" font-weight="600" fill="#8B5CF6">React Router</text>
+            
+            <rect x="336.0" y="165" width="53.5" height="24" rx="4" fill="rgba(139, 92, 246, 0.12)" stroke="rgba(139, 92, 246, 0.25)" stroke-width="1"/>
+            <text x="362.75" y="181" text-anchor="middle" class="mono-text" font-size="10.5" font-weight="600" fill="#8B5CF6">Axios</text>
+            
+            <rect x="397.5" y="165" width="83.5" height="24" rx="4" fill="rgba(139, 92, 246, 0.12)" stroke="rgba(139, 92, 246, 0.25)" stroke-width="1"/>
+            <text x="439.25" y="181" text-anchor="middle" class="mono-text" font-size="10.5" font-weight="600" fill="#8B5CF6">REST APIs</text>
+            
+        </g>
+        
+
+        <!-- Card 04: Royal IT Corporate Portal -->
+        <g transform="translate(610, 320)">
+          <!-- Card Container -->
+          <rect width="550" height="205" rx="10" fill="#111827" stroke="rgba(99, 102, 241, 0.2)" stroke-width="1.2"/>
+          <rect width="5" height="205" rx="2.5" fill="#F59E0B"/>
+
+          <!-- Card Header -->
+          <text x="24" y="32" class="mono-text" font-size="11" font-weight="700" fill="#F59E0B" letter-spacing="1.5">PROJECT // 04</text>
+          <rect x="400" y="16" width="130" height="22" rx="11" fill="rgba(16, 185, 129, 0.08)" stroke="rgba(16, 185, 129, 0.25)" stroke-width="1"/>
+          <circle cx="414" cy="27" r="3" fill="#10B981"/>
+          <text x="424" y="31" class="mono-text" font-size="10" font-weight="600" fill="#10B981">Client Production</text>
+
+          <!-- Project Title & Subtitle -->
+          <text x="24" y="62" class="sans-text" font-size="20" font-weight="700" fill="#F8FAFC">Royal IT Corporate Portal</text>
+          <text x="24" y="82" class="sans-text" font-size="12.5" font-weight="600" fill="#94A3B8">Enterprise Services &amp; Client Platform</text>
+
+          <!-- Description (2 lines) -->
+          <text x="24" y="112" class="sans-text" font-size="12" fill="#64748B">Engineered responsive, accessible corporate portal delivering ~50% enhanced...</text>
+          <text x="24" y="130" class="sans-text" font-size="12" fill="#64748B"> mobile usability, cross-browser compatibility, and modular reusable design...</text>
+
+          <!-- Tech Tags -->
+          
+            <rect x="24" y="165" width="76.0" height="24" rx="4" fill="rgba(139, 92, 246, 0.12)" stroke="rgba(139, 92, 246, 0.25)" stroke-width="1"/>
+            <text x="62.0" y="181" text-anchor="middle" class="mono-text" font-size="10.5" font-weight="600" fill="#8B5CF6">React.js</text>
+            
+            <rect x="108.0" y="165" width="128.5" height="24" rx="4" fill="rgba(139, 92, 246, 0.12)" stroke="rgba(139, 92, 246, 0.25)" stroke-width="1"/>
+            <text x="172.25" y="181" text-anchor="middle" class="mono-text" font-size="10.5" font-weight="600" fill="#8B5CF6">JavaScript ES6+</text>
+            
+            <rect x="244.5" y="165" width="106.0" height="24" rx="4" fill="rgba(139, 92, 246, 0.12)" stroke="rgba(139, 92, 246, 0.25)" stroke-width="1"/>
+            <text x="297.5" y="181" text-anchor="middle" class="mono-text" font-size="10.5" font-weight="600" fill="#8B5CF6">Tailwind CSS</text>
+            
+            <rect x="358.5" y="165" width="53.5" height="24" rx="4" fill="rgba(139, 92, 246, 0.12)" stroke="rgba(139, 92, 246, 0.25)" stroke-width="1"/>
+            <text x="385.25" y="181" text-anchor="middle" class="mono-text" font-size="10.5" font-weight="600" fill="#8B5CF6">HTML5</text>
+            
+            <rect x="420.0" y="165" width="46.0" height="24" rx="4" fill="rgba(139, 92, 246, 0.12)" stroke="rgba(139, 92, 246, 0.25)" stroke-width="1"/>
+            <text x="443.0" y="181" text-anchor="middle" class="mono-text" font-size="10.5" font-weight="600" fill="#8B5CF6">CSS3</text>
+            
+        </g>
+        
+</svg>
