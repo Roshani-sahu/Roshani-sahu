@@ -9,54 +9,65 @@
   <img src="./assets/hero/hero-dark.svg" alt="Roshani Sahu — Frontend Engineer &amp; MERN Developer" width="100%">
 </picture>
 
-<br><br>
+<br>
 
 <!-- ================================================================= -->
-<!-- 02 — ARCHITECTURE & ENGINEERING FLOW                             -->
-<!-- ================================================================= -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/flow/flow-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/flow/flow-light.svg">
-  <img src="./assets/flow/flow-dark.svg" alt="Engineering Flow: Ideation to Production" width="100%">
-</picture>
-
-<br><br>
-
-<!-- ================================================================= -->
-<!-- 03 — SELECTED BUILDS & PROJECT SHOWCASE                           -->
+<!-- 02 — ENGINEERING STACK                                            -->
 <!-- ================================================================= -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/projects/builds-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/projects/builds-light.svg">
-  <img src="./assets/projects/builds-dark.svg" alt="Featured Engineering Builds — Magdha Studios, Get2Vacation CMS &amp; Portal" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/stack/stack-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/stack/stack-light.svg">
+  <img src="./assets/stack/stack-dark.svg" alt="Technologies &amp; Core Ecosystem" width="100%">
 </picture>
 
-<br><br>
+<br>
 
 <!-- ================================================================= -->
-<!-- 04 — CAPABILITIES & CORE DOMAINS                                  -->
+<!-- 03 — SELECTED PROJECTS                                            -->
 <!-- ================================================================= -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/capabilities/capabilities-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/capabilities/capabilities-light.svg">
-  <img src="./assets/capabilities/capabilities-dark.svg" alt="Technology Spectrum &amp; Core Competencies" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/projects/projects-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/projects/projects-light.svg">
+  <img src="./assets/projects/projects-dark.svg" alt="Featured Engineering Implementations — Magdha Studios &amp; Get2Vacations" width="100%">
 </picture>
 
-<br><br>
+<br>
 
 <!-- ================================================================= -->
-<!-- 05 — GITHUB ACTIVITY PULSE                                        -->
+<!-- 04 — GITHUB TOTAL STATS                                           -->
 <!-- ================================================================= -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity/activity-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/activity/activity-light.svg">
-  <img src="./assets/activity/activity-dark.svg" alt="Developer Activity &amp; Open Source Footprint" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/stats/stats-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/stats/stats-light.svg">
+  <img src="./assets/stats/stats-dark.svg" alt="Verified Repository &amp; Activity Statistics" width="100%">
 </picture>
 
-<br><br>
+<br>
 
 <!-- ================================================================= -->
-<!-- 06 — SIGNATURE & DIRECT CHANNELS                                  -->
+<!-- 05 — CONTRIBUTION PULSE                                           -->
+<!-- ================================================================= -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/telemetry/pulse-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/telemetry/pulse-light.svg">
+  <img src="./assets/telemetry/pulse-dark.svg" alt="52-Week Activity Timeline &amp; Consistency" width="100%">
+</picture>
+
+<br>
+
+<!-- ================================================================= -->
+<!-- 06 — LANGUAGE FOOTPRINT                                           -->
+<!-- ================================================================= -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/telemetry/footprint-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/telemetry/footprint-light.svg">
+  <img src="./assets/telemetry/footprint-dark.svg" alt="Aggregated Code Volume &amp; Repository Stack" width="100%">
+</picture>
+
+<br>
+
+<!-- ================================================================= -->
+<!-- 07 — CONTACT & PORTFOLIO SIGNATURE                                -->
 <!-- ================================================================= -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/footer/signature-dark.svg">
