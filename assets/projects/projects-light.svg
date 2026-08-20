@@ -15,33 +15,27 @@
     </style>
   </defs>
 
-  <!-- Background Base -->
   <rect width="1200" height="480" fill="#F8FAFC" rx="20"/>
   <rect width="1200" height="480" fill="url(#projGrid)" rx="20"/>
 
-  <!-- Section Header -->
   <g transform="translate(60, 42)">
     <text x="0" y="14" class="mono-text" font-size="11" font-weight="700" fill="#8B5CF6" letter-spacing="2">// 03 — SELECTED PROJECTS</text>
     <text x="0" y="42" class="sans-text" font-size="22" font-weight="800" fill="#0F172A">Featured Engineering Implementations</text>
   </g>
 
-  <!-- Left: PREMIER FEATURED BUILD (Dominant Presence) -->
+  <!-- Left: PREMIER FEATURED BUILD -->
   <g transform="translate(60, 95)">
-    <!-- Container Card -->
     <rect width="560" height="350" rx="14" fill="#FFFFFF" stroke="#00E5FF" stroke-width="1.5"/>
     <rect width="560" height="350" rx="14" fill="url(#featuredCardGlow)"/>
     
-    <!-- Top Badge -->
     <g transform="translate(26, 24)">
       <rect width="175" height="24" rx="12" fill="rgba(0, 229, 255, 0.15)" stroke="rgba(0, 229, 255, 0.4)" stroke-width="1"/>
       <text x="87.5" y="16" text-anchor="middle" class="mono-text" font-size="10.5" font-weight="700" fill="#00E5FF">★ FEATURED PRODUCTION</text>
     </g>
 
-    <!-- Project Title -->
     <text x="26" y="85" class="sans-text" font-size="26" font-weight="900" fill="#0F172A">Magdha Studios</text>
     <text x="26" y="108" class="sans-text" font-size="13.5" font-weight="600" fill="#8B5CF6">Interactive Game Promotion Platform</text>
 
-    <!-- Description -->
     <text x="26" y="142" class="sans-text" font-size="13.5" fill="#475569">
       Engineered an interactive gaming showcase portal featuring modular
     </text>
@@ -52,14 +46,12 @@
       and responsive layouts optimized for cross-device fidelity.
     </text>
 
-    <!-- Engineering Highlight Box -->
     <g transform="translate(26, 210)">
       <rect width="508" height="60" rx="8" fill="rgba(255, 255, 255, 0.03)" stroke="rgba(99, 102, 241, 0.18)" stroke-width="1"/>
       <text x="16" y="22" class="mono-text" font-size="10.5" font-weight="700" fill="#10B981">ARCHITECTURAL HIGHLIGHT</text>
       <text x="16" y="43" class="sans-text" font-size="12" fill="#0F172A">Reusable Component Library &amp; Smooth Animation Choreography</text>
     </g>
 
-    <!-- Tech Badges -->
     <g transform="translate(26, 296)">
       <rect x="0" y="0" width="80" height="24" rx="5" fill="rgba(0, 229, 255, 0.1)"/>
       <text x="40" y="16" text-anchor="middle" class="mono-text" font-size="10.5" font-weight="600" fill="#00E5FF">React.js</text>
@@ -75,9 +67,8 @@
     </g>
   </g>
 
-  <!-- Right: SECONDARY BUILDS COLUMN (2 Sleek Cards) -->
+  <!-- Right: SECONDARY BUILDS COLUMN -->
   <g transform="translate(645, 95)">
-    <!-- Build 02: Get2Vacation CMS -->
     <g transform="translate(0, 0)">
       <rect width="495" height="165" rx="12" fill="#FFFFFF" stroke="rgba(99, 102, 241, 0.18)" stroke-width="1.2"/>
       <rect width="4" height="165" rx="2" fill="#8B5CF6"/>
@@ -96,7 +87,6 @@
       </g>
     </g>
 
-    <!-- Build 03: Get2Vacations Portal -->
     <g transform="translate(0, 185)">
       <rect width="495" height="165" rx="12" fill="#FFFFFF" stroke="rgba(99, 102, 241, 0.18)" stroke-width="1.2"/>
       <rect width="4" height="165" rx="2" fill="#10B981"/>
